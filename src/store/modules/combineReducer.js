@@ -1,4 +1,8 @@
-import { createStore, applyMissleware } from 'redux';
-import createSagaMiddleware from 'redux-saga';
-import logger from 'redux-logger';
+import { combineReducer } from 'redux';
+
+import cart from './cart/reducer';
+
+export default combineReducer({
+    cart,
+});
 
