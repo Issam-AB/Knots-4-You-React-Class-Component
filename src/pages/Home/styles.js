@@ -30,7 +30,7 @@ export const ImgContainer = styled.div`
     }
 `;
 
-export const TxtContainr = styled.div`
+export const TxtContainer = styled.div`
  min-width: 425px;
  display: flex;
  flex: 1;
@@ -122,7 +122,7 @@ export const LearnTxtContainer = styled.div`
  }
 `;
 
-export const IconeContainer = styled.div`
+export const IconsContainer = styled.div`
  display: flex;
  flex-direction: row;
  width: 100%;
@@ -190,6 +190,17 @@ export const Border = styled.section`
 
    @media(max-width: 414px) {}
    padding: 0;
+`;
+
+export const GetStarted = styled.section`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
+  justify-items: center;
+  background-color: #fce4ec;
+  padding: 1rem 3rem 3rem 3rem;
+
+  @media (max-width: 414px) {}
+    padding: 0;
 `;
 
 export const SmallTips = styled.div`

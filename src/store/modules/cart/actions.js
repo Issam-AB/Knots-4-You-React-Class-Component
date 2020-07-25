@@ -1,4 +1,4 @@
-export function addTCartRequest(id) {
+export function addToCartRequest(id) {
    return {
        type: "ADD_REQUEST",
        id

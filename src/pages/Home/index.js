@@ -14,7 +14,7 @@ import {
     LearnMacrame,
     LearnTxtContainer,
     IconsContainer,
-    GetSTartedTxtContainer,
+    GetStartedTxtContainer,
     Border,
     GetStarted,
     SmallTips
@@ -30,8 +30,8 @@ class Home extends Component {
     state = {
         text: []
     };
-    componentDidMount() {
-        const response = api.get('homePage');
+    async componentDidMount() {
+        const response = await api.get('homepage');
 
         this.setState({ text: response.data })
     }
@@ -83,10 +83,10 @@ class Home extends Component {
                 </IconContext.Provider>
             </LearnMacrame>
 
-                <GetSTartedTxtContainer>
+                <GetStartedTxtContainer>
                     <h2>{txt.getstarted}</h2>
                     <h3>{txt.smalltip}</h3>
-                </GetSTartedTxtContainer>
+                </GetStartedTxtContainer>
                 <Border />
                 <GetStarted>
                     <SmallTips>
