@@ -14,25 +14,26 @@ The frontend was developed with [**_ReactJS_**](https://reactjs.org/) with [**_R
 [**_react-router-dom_**](https://www.npmjs.com/package/react-router-dom) was used to handle the routes in this application.
 
 **Home**
-![home](.github/home.png)
+<img width="1440" alt="home" src="https://user-images.githubusercontent.com/63882261/88467098-1ee18300-cecb-11ea-9952-c6988e3f91ac.png">
 
 **Shop**
-![shop](.github/shop.png)
+<img width="1440" alt="shop" src="https://user-images.githubusercontent.com/63882261/88467103-2b65db80-cecb-11ea-9c34-7cd418bb3d44.png">
 
 **About**
-![about](.github/about.png)
+<img width="1440" alt="about" src="https://user-images.githubusercontent.com/63882261/88467088-0b361c80-cecb-11ea-8b4c-a2e956909957.png">
 
 **Contact**
-![contact](.github/contact.png)
+
+<img width="1440" alt="contact" src="https://user-images.githubusercontent.com/63882261/88467092-0ffad080-cecb-11ea-8ddc-ab8f1bbe2beb.png">
 
 **Empty Cart**
-![emptycart](.github/emptycart.png)
+<img width="1440" alt="emptycart" src="https://user-images.githubusercontent.com/63882261/88467095-12f5c100-cecb-11ea-9e42-6032fccdf4f3.png">
 
 **Product**
-![product](.github/product.png)
+<img width="1440" alt="product" src="https://user-images.githubusercontent.com/63882261/88467183-4dac2900-cecc-11ea-92d5-72041e6239ee.png">
 
 **Cart**
-![cart](.github/cart.png)
+<img width="1440" alt="cart" src="https://user-images.githubusercontent.com/63882261/88467104-2dc83580-cecb-11ea-859a-4245fc01de8f.png">
 
 ## Getting started
 
@@ -68,3 +69,8 @@ The frontend was developed with [**_ReactJS_**](https://reactjs.org/) with [**_R
 ## License
 
 ![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+
+
+
+
