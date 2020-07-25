@@ -6,7 +6,7 @@ export function addTCartRequest(id) {
 };
 
 // Will be listened only by Reducer to add the info in the cart.
-export function adddToCartSuccess(product) {
+export function addToCartSuccess(product) {
     return {
         type: 'ADD_SUCCESS',
         product

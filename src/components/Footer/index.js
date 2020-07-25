@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IconeContext } from 'react-icons';
+import { IconContext } from 'react-icons';
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
 import { AiFillYoutube } from 'react-icons/ai';
@@ -17,12 +17,12 @@ class Footer extends Component {
         return (
            <Container>
                <SocialMedia>
-                   <IconeContext.Provider value={{color: "#474547", size: "3rem"}}>
+                   <IconContext.Provider value={{color: "#474547", size: "3rem"}}>
                      <AiFillFacebook className="icone" />
                      <AiFillInstagram className="icone"/>
                      <AiFillYoutube  className="icone"/>
                      <FaPinterestSquare className="icone"/>
-                   </IconeContext.Provider>
+                   </IconContext.Provider>
                </SocialMedia>
 
                <FooterLinks>

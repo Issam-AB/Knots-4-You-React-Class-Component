@@ -6,7 +6,7 @@ import Popup from "reactjs-popup";
 
 import api from '../../services/api';
 import logo from '../../assets/logo.png'
-import { Container,Cart,Links, LinkContainer,Routes } from './styles'
+import { Container,Cart,Links, LinkContainer, Routes } from './styles'
 import BurgerIcon from '../../components/BurgerIcon';
 import MobileMenu from '../../components/MobileMenu';
 

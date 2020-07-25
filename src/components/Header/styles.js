@@ -40,7 +40,7 @@ export const Links  = styled.div`
    }
 `;
 
-export const Route = styled(LinkWrapper)`
+export const Routes = styled(LinkWrapper)`
    text-transform: uppercase;
    text-decoration:none ;
    color: inherit;

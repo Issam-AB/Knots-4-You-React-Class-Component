@@ -40,6 +40,7 @@ class About extends Component {
                     ))}
                 </MacrameHistory>
             </Container>
+            <Footer />
             </>
         )
     }
